@@ -12,8 +12,9 @@ GET /recordings  - provides all recordings with the ability to provide query par
 handles paging utlizing parameters `limit` and 'page'. 
 
 Sample:
-GET /recordings?name=callTwo
-{
+`GET /recordings?name=callTwo`
+
+`{
     "recordings": [
         {
             "robocallIndicator": false,
@@ -27,7 +28,7 @@ GET /recordings?name=callTwo
     "recordsPerPage": 10,
     "page": 1,
     "totalPages": 1
-}
+}`
 
 
 
