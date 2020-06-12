@@ -1,6 +1,4 @@
 # CodeExerciseRingCentral
-RingCentralsCodeExercies
-
 
 Routes:
 POST /recordings   - creates the new recording
