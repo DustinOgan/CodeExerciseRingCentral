@@ -1,10 +1,12 @@
 # CodeExerciseRingCentral
 
 Routes:
+
 POST /recordings   - creates the new recording
 
 PATCH /recordings/:id  - allows for the update of the robocallIndicator field
 
+DELETE /recordings/:id   - deletes a record by its unique mongoDb identifier
 
 GET /recordings  - provides all recordings with the ability to provide query params to match on
 handles paging utlizing parameters `limit` and 'page'. 
